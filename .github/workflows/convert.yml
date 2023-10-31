@@ -35,6 +35,6 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "Add PDF version of README.md"
+          git commit -m "Updated resume"
           git remote add origin_with_token https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git push origin_with_token HEAD:main
