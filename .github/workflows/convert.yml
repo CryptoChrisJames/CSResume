@@ -19,6 +19,9 @@ jobs:
 
       - name: Install Pandoc, LaTeX (with xelatex), biblatex, biber, fontawesome5, and other LaTeX packages
         run: |
+          sudo apt-get install ttf-mscorefonts-installer
+          sudo fc-cache -f -v
+          sudo mktexlsr
           sudo apt-get update
           sudo apt-get install -y pandoc
           sudo apt-get install -y texlive-xetex # This installs xelatex
