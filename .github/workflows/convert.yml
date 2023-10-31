@@ -20,15 +20,8 @@ jobs:
       - name: Install Pandoc, LaTeX (with xelatex), biblatex, biber, fontawesome5, and other LaTeX packages
         run: |
           sudo apt-get update
-          sudo apt-get install -y ttf-mscorefonts-installer
           sudo apt-get install -y pandoc
-          sudo apt-get install -y texlive-xetex # This installs xelatex
-          sudo apt-get install -y texlive-bibtex-extra biber # This installs biblatex and biber
-          sudo apt-get install -y texlive-fonts-recommended # More latex recommended packages
-          sudo apt-get install -y texlive-fonts-extra # This installs fontawesome5 and other extra fonts
-          sudo apt-get install -y texlive-latex-recommended # Even more latex recommended packages
-          sudo apt-get install -y texlive-latex-extra # A collection of add-on LaTeX packages
-          sudo fc-cache -f -v # Refresh font cache
+          sudo apt-get install -y texlive-xetex
 
 
 
@@ -36,7 +29,7 @@ jobs:
         run: pandoc README.md -o CSResumeLatest.docx --reference-doc=./references/resume-reference.docx
 
       - name: Convert to PDF using LaTeX template
-        run: pandoc README.md -o CSResumeLatest.pdf --template=./references/resume-reference.tex --pdf-engine=xelatex
+        run: pandoc README.md -o CSResumeLatest.pdf --pdf-engine=xelatex
 
       - name: Commit PDF
         run: |
