@@ -21,18 +21,13 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc
-          sudo apt-get install -y texlive # This installs pdflatex among other things
-
-
-      - name: Install Pandoc
-        run: |
-          sudo apt-get install pandoc
+          sudo apt-get install -y texlive-xetex
 
       - name: Convert to DOCX with Pandoc using reference styles
         run: pandoc README.md -o CSResumeLatest.docx --reference-doc=./references/resume-reference.docx
 
       - name: Convert to PDF using LaTeX template
-        run: pandoc README.md -o CSResumeLatest.pdf --template=./references/resume-reference.tex
+        run: pandoc README.md -o CSResumeLatest.pdf --template=./references/resume-reference.tex --pdf-engine=xelatex
 
       - name: Commit PDF
         run: |
