@@ -27,7 +27,6 @@ jobs:
           sudo apt-get install -y texlive-xetex # This installs xelatex
           sudo apt-get install -y texlive-bibtex-extra biber # This installs biblatex and biber
           sudo apt-get install -y texlive-fonts-extra # This installs fontawesome5 and other extra fonts
-          sudo apt-get install -y texlive-generic-recommended # Required for some basic packages
           sudo apt-get install -y texlive-latex-recommended # More latex recommended packages
           sudo apt-get install -y texlive-latex-extra # Even more latex packages
 
