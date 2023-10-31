@@ -1,0 +1,163 @@
+
+\documentclass[a4paper,8pt]{article}
+
+\usepackage{parskip} 
+\usepackage{hologo}
+\usepackage{fontspec}
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9, top=.4in, bottom=.4in]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.42\textwidth}
+
+%custom \section
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{1pt}{2pt}{2pt}
+
+%for publications
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+%Setup hyperref package, and colours for links
+\usepackage[unicode, draft=false]{hyperref}
+\color[HTML]{110223}%{1C033C}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+%for social icons
+\usepackage{fontawesome5}
+% \usepackage{times}
+
+% For underline
+\usepackage[normalem]{ulem}
+
+\setmainfont{Arial}  % Set it to whatever you like
+
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty} 
+
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\color[HTML]{1C033C} \Huge{Omar Macias} \\[6pt]
+\\
+\textcolor[HTML]{371e77}{\underline{\href{mailto:your@email.com}{\raisebox{-0.05\height}{\faEnvelope} your@email.com}} $|$}
+\textcolor[HTML]{371e77}{\underline{\href{mailto:your@anotheremail.com}{\raisebox{-0.05\height}{\faEnvelope} your@anotheremail.com}} $|$}
+\textcolor[HTML]{371e77}{\href{tel:+525513219900}{\raisebox{-0.05\height}{\faMobile} +52 (00) 1234-5678}}
+
+\textcolor[HTML]{371e77}{\underline{\href{https://github.com/yours}{\raisebox{-0.05\height}{\faGithub} github.com/yours}} $|$}
+\textcolor[HTML]{371e77}{\underline{\href{https://linkedin.com/in/yours}{\raisebox{-0.05\height}{\faLinkedin} linkedin.com/in/yours}}}
+\end{tabularx}
+
+% Education
+\section{Education}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\color[HTML]{1C033C} \textbf{Tecnológico de Monterrey (ITESM)} & \hfill \color[HTML]{371e77} Expected graduation date: Jun. 2025 \\
+\color[HTML]{371e77} B.S. in Computer Science and Technology $|$ {\uline{\href{https://linktoyourcarrer.site}{Link to all courses}}} & \hfill \color[HTML]{4B28A4} \textit{\textbf{GPA: X/100}} \\
+\multicolumn{2}{@{}X@{}}{Relevant Courses: Web Software Construction (JavaScript), Maths and Data Science (Python), OOP (C++), \newline \hspace*{16ex} Security in Software Systems (Swift \& Python), Algorithms and Data Structures I and II (C++)}
+\end{tabularx}
+
+
+%Experience
+\section{Experience}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{\uline{\href{https://github.com/}{Meta \& Major League Hacking}}} \hfill \color[HTML]{371e77} Oct. 2023 - Present \\[4pt]
+\color[HTML]{371e77}\textbf{\textit{Software Engineer Fellow}}\ \hfill \color[HTML]{4B28A4} \textit{Python, Flask, Git, GitHub} \\[5pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item Contributing to Meta's AudioCraft, a Generative AI project focused on processing, generation, and autocompletion.
+        \item Creating a Python command-line interface extension with text and audio input validation, to facilitate high-fidelity audio generation for sounds and music.
+    \end{itemize}
+\end{minipage}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\color[HTML]{1C033C} \textbf{\uline{\href{https://github.com/}{Meta \& Major League Hacking}}} \hfill \color[HTML]{371e77} Jun. 2023 - Sep. 2023 \\[4pt]
+\color[HTML]{371e77}\textbf{\textit{Site Reliability Engineer Fellow}}\ \hfill \color[HTML]{4B28A4} \textit{Python, Bash, MySQL, Flask, HTML, Git, GitHub, Docker, Linux} \\[5pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item Developed a website on Flask with Jinja, MySQL and a professional Git/GitHub workflow.
+        \item Automated CI/CD pipelines for unit and integration testing, as well as the deployment the web app, database and Nginx using Docker Compose, GitHub Actions and scripting.
+    \end{itemize}
+\end{minipage}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\color[HTML]{1C033C} \textbf{Universal Scientific Industrial Co., Ltd.} \hfill \color[HTML]{371e77} Mar. 2023 - Jun. 2023 \\[4pt]
+\color[HTML]{371e77}\textbf{\textit{Software Engineering Intern}} \hfill \color[HTML]{4B28A4} \textit{PHP, JavaScript, SQL Server, HTML, CSS, Bootstrap, jQuery} \\[5pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item Handled overtime requests and approvals for 2,000+ employees by developing internal back-end systems with PHP.
+        \item Displayed graphs and logs in web interfaces of 6,000+ monthly requests using HTML, JavaScript, and Bootstrap.
+        \item Reduced reports loading times from 10 to 3 seconds, enhancing SQL queries by up to 60\%.
+    \end{itemize}
+    \end{minipage}
+\end{tabularx}
+
+% Projects
+\section{Projects}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\color[HTML]{1C033C} \textbf{\uline{\href{https://github.com/}{MySpoti}}} \hfill \color[HTML]{371e77} Jul. 2023 - Ongoing \\[4pt]
+\color[HTML]{371e77}\textbf{\textit{Personalized Spotify tops and insights web application }} \hfill \color[HTML]{4B28A4} \textit{Python, JavaScript, HTML, Flask, Bootstrap, Git} \\[5pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item Showcasing user's Spotify top tracks, insights and listening history through visualizations in HTML.
+        \item Integrating Spotify's OAuth2, API scopes and endpoints to access user user's data for further process with Flask.
+    \end{itemize}
+    \end{minipage}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\color[HTML]{1C033C} \textbf{\uline{\href{https://github.com/}{AIWay}}} \hfill \color[HTML]{371e77} Sep. 2022 \\[4pt]
+\color[HTML]{371e77}\textbf{\textit{HACKMTY project to create reports and represent them on a map}} \hfill \color[HTML]{4B28A4} \textit{Python, JavaScript, HTML, Django, Git} \\[5pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item Developed a real-time traffic and security alert visualization crowdsourced web page using Google Maps API, featuring heat maps for data representation.
+        \item Led the back-end team using Python and Django to build a WhatsApp bot with Twilio. The bot proccessed user reports with OpenAI's GPT-3 API for classification of relevant information.
+    \end{itemize}
+    \end{minipage}
+\end{tabularx}
+
+% Leadership and Volunteering
+\section{Leadership and Volunteering}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\color[HTML]{1C033C} \textbf{Club de Algoritmia GDA} \hfill \color[HTML]{371e77} Jun. 2023 - Ongoing \\[5pt]
+\color[HTML]{371e77}\textbf{\textit{Board of Directors}} \\[5pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item Guiding a community of 550+ CS students in their professional development, technical skills and interest in tech.
+        \item Orchestrating workshops, coding sessions, and events to enhance skills and encourage continuous learning.
+    \end{itemize}
+\end{minipage}
+\end{tabularx}
+
+\section{Skills}
+\color[HTML]{1C033C}\textbf{Languages:} \\[2pt]
+\color[HTML]{371e77} \hspace*{4ex} Python, PHP, C++, SQL, HTML, JavaScript, Bash, Go\\[3pt]
+\color[HTML]{1C033C}\textbf{Technologies \& Tools:} \\[2pt]
+\color[HTML]{371e77} \hspace*{4ex} Flask, Django, Git, Linux, Docker, CI/CD\\[3pt]
+\color[HTML]{1C033C}\textbf{Certifications:} \\[2pt]
+\color[HTML]{371e77} \hspace*{4ex} \uline{\href{https://learn.microsoft.com/}{Microsoft SC-900 Certified: Security, Compliance, and Identity Fundamentals}}.
+\end{document}

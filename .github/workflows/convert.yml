@@ -24,11 +24,8 @@ jobs:
       - name: Convert to DOCX with Pandoc using reference styles
         run: pandoc README.md -o CSResumeLatest.docx --reference-doc=./references/resume-reference.docx
 
-      - name: Install LibreOffice
-        run: sudo apt-get install -y libreoffice
-
-      - name: Convert the Styled DOCX to PDF using LibreOffice
-        run: libreoffice --headless --convert-to pdf CSResumeLatest.docx
+      - name: Convert to PDF using LaTeX template
+        run: pandoc CSResume.md -o CSResumeLatest.pdf --template=./references/resume-reference.tex
 
       - name: Commit PDF
         run: |

@@ -1,5 +1,4 @@
-# **Christopher James Smith**
-## Senior Software Engineer
+# **Christopher J. Smith** - Senior Software Engineer
 
 **csmith4work@gmail.com**
 
