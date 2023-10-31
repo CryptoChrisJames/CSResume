@@ -51,28 +51,32 @@ Tennessee State University*
 - Diligently participated in a 24x7 on-call rotation, providing unwavering support to the newly instituted Kubernetes architecture.
 - Authored and presented several pivotal Architecture Design documents to a Design Review committee, ensuring alignment and approval before project execution.
 
-### Junior Software Engineer @ SmileDirectClub
+### Software Engineer @ SmileDirectClub
 #### March 2019 – Dec 2021
 
-- Dismantled 3 parts of the company’s monolithic e-commerce application into microservices in an agile development environment using scrum and kanban methodologies.
-- Implemented microservices using .Net Core and DynamoDb. Deployed services through CI/CD pipeline consisting of Jenkins, Docker, AWS and Terraform.
-- Wrote frontend and backend unit and integration tests. Integrated the tests into the CI/CD pipeline.
-- Integrated a microservice with RioSEO third party API in order to automate a business need, saving the company at least $50,000/year in manual data entry.
-Added components to, maintained and refactored components in company Component Library using Vue.js and Bootstrap.
-- Developed MicroUI in Vue.js that integrated with Google Maps API and configured UI to be deployed as a CMS plugin via npm.
+- Contributed to the breakdown of three sections of the company’s monolithic e-commerce application into microservices, enhancing system maintainability and scalability, in an Agile development environment using Scrum and Kanban methodologies.
+- Crafted and deployed microservices using .Net Core and DynamoDb through a CI/CD pipeline leveraging Jenkins, Docker, AWS, and Terraform.
+- Authored and integrated frontend and backend unit and integration tests into the CI/CD pipeline, ensuring robust and reliable software delivery.
+- Seamlessly integrated a microservice with the RioSEO third-party API, automating a critical business process and resulting in annual savings of at least $50,000 through reduced manual data entry.
+- Enhanced and maintained the company's Component Library by adding and refactoring components using Vue.js and Bootstrap, promoting reusability and consistent UI/UX.
+- Developed a MicroUI in Vue.js integrating with the Google Maps API, enabling it to be deployed as a CMS plugin via npm, improving content flexibility.
+- Recognized for outstanding performance and contributions, leading to a promotion from Junior Software Engineer to Software Engineer.
 
 ### Freelance Software Engineer @ Nashville, TN
 #### August 2017 – present
 
-- Designed, implemented, hosted and maintained a media production marketing website using Node.js, Vue.js, AWS and Heroku. Integrated application with Contentful and Airtable.
-- Designed, implemented and tested an E-Commerce website developed in .Net Core and JQuery, integrated with Stripe.
-- Fully implemented a POC for a custom pre-designed web application in .Net Core with booking and scheduling functionality.
+- Collaborated closely with a client to delineate business requirements, system design, and orchestrated the end-to-end implementation and deployment plan for a Software-as-a-Service platform developed in Typescript, Node.js, and React.js.
+- Assumed responsibility for the application's infrastructure on Heroku, successfully executing a comprehensive infrastructure migration to AWS using the Serverless Framework.
+- Directed offshore development teams, steering the project to achieve a Minimum Viable Product that was successfully launched in the market.
+- Conceived, crafted, and maintained a media production marketing website using Node.js, Vue.js, AWS, and Heroku. Seamlessly integrated the application with Contentful and Airtable, enhancing content management capabilities.
+- Engineered an E-Commerce website using .Net Core and jQuery with a secure integration to Stripe for payment processing.
+- Realized a Proof of Concept for a bespoke web application in .Net Core, featuring booking and scheduling functionalities tailored to client specifications.
 
 ### Software Developer Associate @ Accenture
 #### June 2016 – August 2017
 
-- Managed defects, tests, and executed test cases for a monolithic application using Microsoft Test Manager and Microsoft Team Foundation Server.
-- Designed and implemented a solution in C# that records application transactions into the respective database. 
-- Completed Tricentis Tosca Automation Specialist certification and demonstrated its automation features.
+- Took charge of defect management, test execution, and test case implementation for a monolithic application leveraging Microsoft Test Manager and Microsoft Team Foundation Server.
+- Conceptualized and developed a solution in C# to log application transactions efficiently into the corresponding database.
+- Achieved the Tricentis Tosca Automation Specialist certification, showcasing expertise in its automation features.
 
 
