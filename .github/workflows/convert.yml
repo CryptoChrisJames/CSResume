@@ -25,7 +25,7 @@ jobs:
         run: pandoc README.md -o CSResumeLatest.docx --reference-doc=./references/resume-reference.docx
 
       - name: Convert to PDF using LaTeX template
-        run: pandoc CSResume.md -o CSResumeLatest.pdf --template=./references/resume-reference.tex
+        run: pandoc README.md -o CSResumeLatest.pdf --template=./references/resume-reference.tex
 
       - name: Commit PDF
         run: |
