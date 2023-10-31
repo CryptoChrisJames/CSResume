@@ -12,22 +12,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Pandoc and TinyTeX
+      - name: Delete old versions
+        run: |
+          rm CSResumeLatest.docx
+          rm CSResumeLatest.pdf
+
+      - name: Install Pandoc
         run: |
           sudo apt-get install pandoc
-          wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
-          export PATH="$PATH:$HOME/.TinyTeX/bin/x86_64-linux"
-          tlmgr install xetex
 
-      - name: Convert to PDF with Pandoc
-        run: |
-          export PATH="$PATH:$HOME/.TinyTeX/bin/x86_64-linux"
-          pandoc README.md -o CSResumeLatest.pdf --pdf-engine=xelatex
-      
-      - name: Convert to DOCX with Pandoc
-        run: |
-          pandoc README.md -o CSResumeLatest.docx
+      - name: Convert to DOCX with Pandoc using reference styles
+        run: pandoc README.md -o CSResumeLatest.docx --reference-doc=./references/resume-reference.docx
 
+      - name: Install LibreOffice
+        run: sudo apt-get install -y libreoffice
+
+      - name: Convert the Styled DOCX to PDF using LibreOffice
+        run: libreoffice --headless --convert-to pdf CSResumeLatest.docx
 
       - name: Commit PDF
         run: |
