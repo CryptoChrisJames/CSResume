@@ -7,7 +7,8 @@ on:
 jobs:
   convert:
     runs-on: ubuntu-latest
-    
+    env:
+      GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
     steps:
       - uses: actions/checkout@v4
 
@@ -18,9 +19,6 @@ jobs:
       # You can test your matrix by printing the current Python version
       - name: Display Python version
         run: python -c "import sys; print(sys.version)"
-        
-      - name: test
-        run: echo ${{ secrets.REPO_TOKEN }}
 
       - name: Setup Env
         run: pip install mdpdf
@@ -36,6 +34,3 @@ jobs:
           git commit -m "Add PDF version of README.md"
           git remote add origin_with_token https://github.com/${{ github.repository }}.git
           git push --set-upstream origin_with_token $GITHUB_REF
-
-        env:
-          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
