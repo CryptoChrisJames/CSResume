@@ -8,7 +8,7 @@ jobs:
   convert:
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
 
@@ -31,6 +31,10 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add CSResumeLatest.pdf
+          if git diff --staged --exit-code; then
+            echo "No changes to commit"
+            exit 0
+          fi
           git commit -m "Add PDF version of README.md"
-          git remote add origin_with_token https://github.com/${{ github.repository }}.git
-          git push --set-upstream origin_with_token $GITHUB_REF
+          git remote add origin_with_token https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git push origin_with_token HEAD:${{ github.ref }}
