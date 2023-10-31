@@ -17,6 +17,13 @@ jobs:
           rm CSResumeLatest.docx
           rm CSResumeLatest.pdf
 
+      - name: Install Pandoc and LaTeX (with pdflatex)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+          sudo apt-get install -y texlive # This installs pdflatex among other things
+
+
       - name: Install Pandoc
         run: |
           sudo apt-get install pandoc
