@@ -17,12 +17,17 @@ jobs:
           rm CSResumeLatest.docx
           rm CSResumeLatest.pdf
 
-      - name: Install Pandoc and LaTeX (with pdflatex)
+      - name: Install Pandoc, LaTeX (with xelatex), biblatex, biber, fontawesome5, and other LaTeX packages
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc
-          sudo apt-get install -y texlive-xetex
-          sudo apt-get install -y texlive-bibtex-extra biber
+          sudo apt-get install -y texlive-xetex # This installs xelatex
+          sudo apt-get install -y texlive-bibtex-extra biber # This installs biblatex and biber
+          sudo apt-get install -y texlive-fonts-extra # This installs fontawesome5 and other extra fonts
+          sudo apt-get install -y texlive-generic-recommended # Required for some basic packages
+          sudo apt-get install -y texlive-latex-recommended # More latex recommended packages
+          sudo apt-get install -y texlive-latex-extra # Even more latex packages
+
 
       - name: Convert to DOCX with Pandoc using reference styles
         run: pandoc README.md -o CSResumeLatest.docx --reference-doc=./references/resume-reference.docx
