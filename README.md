@@ -1,4 +1,5 @@
-# Christopher James Smith - Senior Software Engineer
+# **Christopher James Smith**
+## Senior Software Engineer
 
 **csmith4work@gmail.com**
 
@@ -6,19 +7,19 @@
 I am a passionate software engineer with over 5 years of experience working in every capacity of the software development lifecycle. Specializing in Full Stack Development, I’ve gathered requirements, architected solutions, implemented code, curated tests and managed the release and updates of various products and tools. I’ve learned that I excel in working on the forefront of technology, providing my skills to help create new solutions and integrations where none existed before. I value gathering all of the relevant context and requirements for a project, consistent communication, managing expectations and proper documentation and project management. This ensures that my software delivery can be as robust as possible while also maintaining efficiency during the development process.
 
 ## Core Skills
-|Area|Skills and Competencies|
-|---|---|
-|Application and Web Development|C# and Dotnet, Python, Node.JS, Vue and Nuxt.JS, React.JS, Typescript, GraphQL, JQuery, SASS|
-|Cloud Infrastructure|AWS, Terraform, IAM|
-|Compute Infrastructure and Tooling |EC2, Docker, ECR, ECS, Lambda, Kubernetes, Helm, Heroku|
-|Software Integration|SNS, SQS, Stripe, RioSEO, Airtable, Contentful, FFMPEG, Google API, Infor|
-|Data Storage|S3, SQL Server, MongoDB, Postgres, RDS, DynamoDb|
-|Automation (Config Mgmt., CI/CD, Secrets)|YAML, CodeBuild, CodePipeline, Github Actions, CircleCI, Spacelift, Secrets Manager, Parameter Store, Jenkins|
-|Testing Frameworks|Jest, Puppeteer, Artillery, XUnit, SpecFlow|
-|Networking|Route53, Cloudflare, Cloudfront, VPC, NGINX|
-|Scripting|Python, Bash, Git|
-|Monitoring and Alerting|New Relic, Opsgenie, CloudWatch, Sentry, Google Analytics|
-|Project Tracking and Documentation|Jira, Confluence, Notion, LucidChart, Asana|
+
+- **Application and Web Development:** C#, Dotnet, Python, Node.JS, Vue, Nuxt.JS, React.JS, Typescript, GraphQL, JQuery, SASS
+- **Cloud Infrastructure:** AWS, Terraform, IAM
+- **Compute Infrastructure and Tooling:** EC2, Docker, ECR, ECS, Lambda, Kubernetes, Helm, Heroku
+- **Software Integration:** SNS, SQS, Stripe, RioSEO, Airtable, Contentful, FFMPEG, Google API, Infor
+- **Data Storage:** S3, SQL Server, MongoDB, Postgres, RDS, DynamoDb
+- **Automation:** YAML, CodeBuild, CodePipeline, Github Actions, CircleCI, Spacelift, Secrets Manager, Parameter Store, Jenkins
+- **Testing Frameworks:** Jest, Puppeteer, Artillery, XUnit, SpecFlow
+- **Networking:** Route53, Cloudflare, Cloudfront, VPC, NGINX
+- **Scripting:** Python, Bash, Git
+- **Monitoring and Alerting:** New Relic, Opsgenie, CloudWatch, Sentry, Google Analytics
+- **Project Tracking and Documentation:** Jira, Confluence, Notion, LucidChart, Asana
+
 
 
 ## Education
