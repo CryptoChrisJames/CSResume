@@ -19,16 +19,17 @@ jobs:
 
       - name: Install Pandoc, LaTeX (with xelatex), biblatex, biber, fontawesome5, and other LaTeX packages
         run: |
-          sudo apt-get install ttf-mscorefonts-installer
-          sudo fc-cache -f -v
-          sudo mktexlsr
           sudo apt-get update
+          sudo apt-get install -y ttf-mscorefonts-installer
           sudo apt-get install -y pandoc
           sudo apt-get install -y texlive-xetex # This installs xelatex
           sudo apt-get install -y texlive-bibtex-extra biber # This installs biblatex and biber
+          sudo apt-get install -y texlive-fonts-recommended # More latex recommended packages
           sudo apt-get install -y texlive-fonts-extra # This installs fontawesome5 and other extra fonts
-          sudo apt-get install -y texlive-latex-recommended # More latex recommended packages
-          sudo apt-get install -y texlive-latex-extra # Even more latex packages
+          sudo apt-get install -y texlive-latex-recommended # Even more latex recommended packages
+          sudo apt-get install -y texlive-latex-extra # A collection of add-on LaTeX packages
+          sudo fc-cache -f -v # Refresh font cache
+
 
 
       - name: Convert to DOCX with Pandoc using reference styles
