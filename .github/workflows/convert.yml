@@ -19,5 +19,5 @@ jobs:
       - name: Setup Env
         run: pip install mdpdf
 
-      - name: Run Script
-        run: mdpdf -o ../../CSResumeLatest.pdf ../../README.md
+      - name: Convert to PDF
+        run: mdpdf -o CSResumeLatest.pdf README.md
