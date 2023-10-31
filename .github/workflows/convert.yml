@@ -31,7 +31,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add CSResumeLatest.pdf
           git commit -m "Add PDF version of README.md"
-          git remote add origin_with_token https://github.com/$GITHUB_REPOSITORY.git
+          git remote add origin_with_token https://github.com/${{ github.repository }}.git
           git push --set-upstream origin_with_token $GITHUB_REF
 
         env:
