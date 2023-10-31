@@ -22,6 +22,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pandoc
           sudo apt-get install -y texlive-xetex
+          sudo apt-get install -y texlive-bibtex-extra biber
 
       - name: Convert to DOCX with Pandoc using reference styles
         run: pandoc README.md -o CSResumeLatest.docx --reference-doc=./references/resume-reference.docx
