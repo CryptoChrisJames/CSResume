@@ -20,7 +20,7 @@ jobs:
         run: python -c "import sys; print(sys.version)"
         
       - name: test
-        run: ${{ secrets.REPO_TOKEN }}
+        run: echo ${{ secrets.REPO_TOKEN }}
 
       - name: Setup Env
         run: pip install mdpdf
