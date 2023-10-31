@@ -12,19 +12,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Python 
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10' 
-      # You can test your matrix by printing the current Python version
-      - name: Display Python version
-        run: python -c "import sys; print(sys.version)"
+      - name: Install Pandoc and TinyTeX
+        run: |
+          sudo apt-get install pandoc
+          wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
+          export PATH="$PATH:$HOME/.TinyTeX/bin/x86_64-linux"
+          tlmgr install xetex
 
-      - name: Setup Env
-        run: pip install mdpdf
+      - name: Convert to PDF with Pandoc
+        run: |
+          export PATH="$PATH:$HOME/.TinyTeX/bin/x86_64-linux"
+          pandoc README.md -o CSResumeLatest.pdf --pdf-engine=xelatex
+      
+      - name: Convert to DOCX with Pandoc
+        run: |
+          pandoc README.md -o CSResumeLatest.docx
 
-      - name: Convert to PDF
-        run: mdpdf -o CSResumeLatest.pdf README.md
 
       - name: Commit PDF
         run: |
