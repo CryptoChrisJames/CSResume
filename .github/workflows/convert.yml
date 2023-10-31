@@ -23,13 +23,13 @@ jobs:
           sudo apt-get install -y pandoc
           sudo apt-get install -y texlive-xetex
 
-
-
       - name: Convert to DOCX with Pandoc using reference styles
         run: pandoc README.md -o CSResumeLatest.docx --reference-doc=./references/resume-reference.docx
 
       - name: Convert to PDF using LaTeX template
-        run: pandoc README.md -o CSResumeLatest.pdf --pdf-engine=xelatex
+        run: pandoc README.md -o CSResumeLatest.pdf --pdf-engine=xelatex \
+          -V geometry:"top=1in, bottom=1in, left=1in, right=1in" \
+          -V mainfont="Arial"
 
       - name: Commit PDF
         run: |
