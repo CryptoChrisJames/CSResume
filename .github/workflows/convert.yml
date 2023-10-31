@@ -1,0 +1,23 @@
+name: Convert Resume to PDF
+on: [push]
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python 
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' 
+      # You can test your matrix by printing the current Python version
+      - name: Display Python version
+        run: python -c "import sys; print(sys.version)"
+
+      - name: Setup Env
+        run: pip install mdpdf
+
+      - name: Run Script
+        run: mdpdf -o ../../CSResumeLatest.pdf ../../README.md

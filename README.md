@@ -1,6 +1,6 @@
 # Christopher James Smith - Senior Software Engineer
 
-### csmith4work@gmail.com
+#### csmith4work@gmail.com
 
 ## Professional Summary
 I am a passionate software engineer with over 5 years of experience working in every capacity of the software development lifecycle. Specializing in Full Stack Development, I’ve gathered requirements, architected solutions, implemented code, curated tests and managed the release and updates of various products and tools. I’ve learned that I excel in working on the forefront of technology, providing my skills to help create new solutions and integrations where none existed before. I value gathering all of the relevant context and requirements for a project, consistent communication, managing expectations and proper documentation and project management. This ensures that my software delivery can be as robust as possible while also maintaining efficiency during the development process.
@@ -8,7 +8,7 @@ I am a passionate software engineer with over 5 years of experience working in e
 ## Core Skills
 |Area|Skills and Competencies|
 |--------------------|--------------------|
-|Application and Web Development |C#, Python, Node.JS, Nuxt.JS, React.JS, Typescript, GraphQL, JQuery, SASS|
+|Application and Web Development |C# and Dotnet, Python, Node.JS, Vue and Nuxt.JS, React.JS, Typescript, GraphQL, JQuery, SASS|
 |Cloud Infrastructure|AWS, Terraform, IAM|
 |Compute Infrastructure and Tooling |EC2, Docker, ECR, ECS, Lambda, Kubernetes, Helm, Heroku|
 |Software Integration|SNS, SQS, Stripe, RioSEO, Airtable, Contentful, FFMPEG, Google API, Infor|
