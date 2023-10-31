@@ -7,17 +7,21 @@ I am a passionate software engineer with over 5 years of experience working in e
 
 ## Core Skills
 
-- **Application and Web Development:** C#, Dotnet, Python, Node.JS, Vue, Nuxt.JS, React.JS, Typescript, GraphQL, JQuery, SASS
-- **Cloud Infrastructure:** AWS, Terraform, IAM
-- **Compute Infrastructure and Tooling:** EC2, Docker, ECR, ECS, Lambda, Kubernetes, Helm, Heroku
-- **Software Integration:** SNS, SQS, Stripe, RioSEO, Airtable, Contentful, FFMPEG, Google API, Infor
-- **Data Storage:** S3, SQL Server, MongoDB, Postgres, RDS, DynamoDb
-- **Automation:** YAML, CodeBuild, CodePipeline, Github Actions, CircleCI, Spacelift, Secrets Manager, Parameter Store, Jenkins
-- **Testing Frameworks:** Jest, Puppeteer, Artillery, XUnit, SpecFlow
-- **Networking:** Route53, Cloudflare, Cloudfront, VPC, NGINX
-- **Scripting:** Python, Bash, Git
-- **Monitoring and Alerting:** New Relic, Opsgenie, CloudWatch, Sentry, Google Analytics
-- **Project Tracking and Documentation:** Jira, Confluence, Notion, LucidChart, Asana
+| Area                               | Technologies                                                                                      |
+|------------------------------------|---------------------------------------------------------------------------------------------------|
+| **Application and Web Development**| C#, Dotnet, Python, Node.JS, Vue, Nuxt.JS, React.JS, Typescript, GraphQL, JQuery, SASS           |
+| **Cloud Infrastructure**           | AWS, Terraform, IAM                                                                               |
+| **Compute Infrastructure and Tooling** | EC2, Docker, ECR, ECS, Lambda, Kubernetes, Helm, Heroku                                      |
+| **Software Integration**           | SNS, SQS, Stripe, RioSEO, Airtable, Contentful, FFMPEG, Google API, Infor                        |
+| **Data Storage**                   | S3, SQL Server, MongoDB, Postgres, RDS, DynamoDb                                                 |
+| **Automation**                     | YAML, CodeBuild, CodePipeline, Github Actions, CircleCI, Spacelift, Secrets Manager, Parameter Store, Jenkins |
+| **Testing Frameworks**             | Jest, Puppeteer, Artillery, XUnit, SpecFlow                                                      |
+| **Networking**                     | Route53, Cloudflare, Cloudfront, VPC, NGINX                                                      |
+| **Scripting**                      | Python, Bash, Git                                                                                 |
+| **Monitoring and Alerting**        | New Relic, Opsgenie, CloudWatch, Sentry, Google Analytics                                         |
+| **Project Tracking and Documentation** | Jira, Confluence, Notion, LucidChart, Asana                                                   |
+
+
 
 
 
