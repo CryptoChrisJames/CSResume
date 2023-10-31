@@ -37,4 +37,4 @@ jobs:
           fi
           git commit -m "Add PDF version of README.md"
           git remote add origin_with_token https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git push origin_with_token HEAD:${{ github.ref }}
+          git push origin_with_token HEAD:main
