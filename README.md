@@ -11,7 +11,7 @@ I am a passionate software engineer with over 5 years of experience working in e
 |------------------------------------|---------------------------------------------------------------------------------------------------|
 | **Application and Web Development**| C#, Dotnet, Python, Node.JS, Vue, Nuxt.JS, React.JS, Typescript, GraphQL, JQuery, SASS           |
 | **Cloud Infrastructure**           | AWS, Terraform, IAM                                                                               |
-| **Compute Infrastructure and Tooling** | EC2, Docker, ECR, ECS, Lambda, Kubernetes, Helm, Heroku                                      |
+| **Compute Infrastructure and Tooling** | EC2, Docker, ECR, ECS, Lambda, Kubernetes, Helm, Heroku, Aptible                                   |
 | **Software Integration**           | SNS, SQS, Stripe, RioSEO, Airtable, Contentful, FFMPEG, Google API, Infor                        |
 | **Data Storage**                   | S3, SQL Server, MongoDB, Postgres, RDS, DynamoDb                                                 |
 | **Automation**                     | YAML, CodeBuild, CodePipeline, Github Actions, CircleCI, Spacelift, Secrets Manager, Parameter Store, Jenkins |
@@ -35,28 +35,28 @@ Tennessee State University*
 ### Senior Application Engineer @ HCA
 #### April 2023 – present
 
-- Managed project complexity and enhanced my ability to consistently switch between contexts as I was entrusted to contribute to 4 dashboards that covered 3 different initiatives.
-- Refactored and reviewed the design of a new internal dashboard written in React.JS. Gave input to management on best practices and how to better adhere to software design principles in development.
-- Integrated a new React homepage for employees with third-party services and APIs using their provided API Gateway created by Infor.
+- Managed project complexity and consistently switched between contexts as I was entrusted to contribute to 5 dashboards that covered 3 different initiatives.
+- Refactored and reviewed the design of a new internal dashboard written in React.JS. Gave input to management on best practices and how to better adhere to software design principles.
+- Integrated a new React homepage for employees with third-party services and APIs using the provided API Gateway created by Infor.
 - Mentored and assisted junior developers with application development, providing documentation, personal experience and code reviews to help develop growth and reinforce software best practices. Pair programming regularly with developers.
 
 ### Cloud Platform Engineer II @ Butterfly Network
 #### Dec 2021 – Jan 2023
 
 - Coordinated and lead the architecting of a system-wide monitoring and alerting system, seamlessly integrating AWS Route 53 Health Checks with NewRelic and Opsgenie.
-- Consulted with a separate team and implemented the deployment of a brand new mobile Proof of Concept (POC) onto an established Kubernetes architecture leveraging Helm, Github Actions, and Terraform.
-- Successfully orchestrated the migration of an e-commerce frontend from a legacy AWS architecture to a modern setup, taking the lead in configuring and maintaining the front-end using Cloudfront.
+- Consulted with a separate team and implemented the deployment pipeline for a brand new mobile Proof of Concept (POC) onto an established Kubernetes architecture leveraging Helm, Github Actions, and Terraform.
+- Successfully orchestrated the migration of an e-commerce front-end from a legacy AWS architecture to a modern setup, taking the lead in configuring and maintaining the front-end using Cloudfront.
 - Collaboratively steered over 20 application deployments to staging and production environments using CircleCI.
 - Led a dynamic team in a Hackathon, innovating, testing, and presenting metrics for a robust load testing framework employing Artillery.
-- Diligently participated in a 24x7 on-call rotation, providing unwavering support to the newly instituted Kubernetes architecture.
-- Authored and presented several pivotal Architecture Design documents to a Design Review committee, ensuring alignment and approval before project execution.
+- Diligently participated in a 24x7 on-call rotation, providing support to the newly instituted Kubernetes architecture while also maintaining the legacy architecture established on Aptible.
+- Authored and presented several Architecture Design documents to a Design Review committee, ensuring alignment and approval before project execution.
 
 ### Software Engineer @ SmileDirectClub
 #### March 2019 – Dec 2021
 
 - Contributed to the breakdown of three sections of the company’s monolithic e-commerce application into microservices, enhancing system maintainability and scalability, in an Agile development environment using Scrum and Kanban methodologies.
 - Crafted and deployed microservices using .Net Core and DynamoDb through a CI/CD pipeline leveraging Jenkins, Docker, AWS, and Terraform.
-- Authored and integrated frontend and backend unit and integration tests into the CI/CD pipeline, ensuring robust and reliable software delivery.
+- Authored and integrated front-end and back-end unit and integration tests into the CI/CD pipeline, ensuring robust and reliable software delivery.
 - Seamlessly integrated a microservice with the RioSEO third-party API, automating a critical business process and resulting in annual savings of at least $50,000 through reduced manual data entry.
 - Enhanced and maintained the company's Component Library by adding and refactoring components using Vue.js and Bootstrap, promoting reusability and consistent UI/UX.
 - Developed a MicroUI in Vue.js integrating with the Google Maps API, enabling it to be deployed as a CMS plugin via npm, improving content flexibility.
