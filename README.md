@@ -43,8 +43,8 @@ Tennessee State University*
 ### Cloud Platform Engineer II @ Butterfly Network
 #### Dec 2021 – Jan 2023
 
-- Spearheaded the architecting of a system-wide monitoring and alerting system, seamlessly integrating AWS Route 53 Health Checks with NewRelic and Opsgenie.
-- Championed the deployment of a brand new mobile Proof of Concept (POC) onto an established Kubernetes architecture leveraging Helm, Github Actions, and Terraform.
+- Coordinated and lead the architecting of a system-wide monitoring and alerting system, seamlessly integrating AWS Route 53 Health Checks with NewRelic and Opsgenie.
+- Consulted with a separate team and implemented the deployment of a brand new mobile Proof of Concept (POC) onto an established Kubernetes architecture leveraging Helm, Github Actions, and Terraform.
 - Successfully orchestrated the migration of an e-commerce frontend from a legacy AWS architecture to a modern setup, taking the lead in configuring and maintaining the front-end using Cloudfront.
 - Collaboratively steered over 20 application deployments to staging and production environments using CircleCI.
 - Led a dynamic team in a Hackathon, innovating, testing, and presenting metrics for a robust load testing framework employing Artillery.
