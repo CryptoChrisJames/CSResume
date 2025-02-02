@@ -3,23 +3,23 @@
 **csmith4work@gmail.com**
 
 ## Professional Summary
-I am a passionate software engineer with over 5 years of experience working in every capacity of the software development lifecycle. Specializing in Full Stack Development, I’ve gathered requirements, architected solutions, implemented code, curated tests and managed the release and updates of various products and tools. I’ve learned that I excel in working at the forefront of technology, providing my skills to help create new solutions and integrations where none existed before. I value gathering all the relevant context and requirements for a project, consistent communication, managing expectations and proper documentation and project management. This ensures that my software delivery can be as robust as possible while also maintaining efficiency during the development process.
+Passionate software engineer with 9 years of experience spanning the full software development lifecycle. Specializing in full-stack development with a proven ability to adapt to any technology stack encountered. My experience ranges from customer-facing dashboards to auto-scaling microservice infrastructures, demonstrating versatility across diverse project types. I thrive at the forefront of technology, excelling in contexts that require innovative solutions. My approach emphasizes comprehensive requirement gathering, consistent communication, and robust documentation practices to ensure efficient and reliable software delivery. Driven to take on larger greenfield projects while mentoring the next generation of engineers.
 
 ## Core Skills
 
 | Area                               | Technologies                                                                                      |
 |------------------------------------|---------------------------------------------------------------------------------------------------|
-| **Application and Web Development**| C#, Dotnet, Python, Node.JS, Vue, Nuxt.JS, React.JS, Typescript, GraphQL, JQuery, SASS           |
-| **Cloud Infrastructure**           | AWS, Terraform, IAM                                                                               |
-| **Compute Infrastructure and Tooling** | EC2, Docker, ECR, ECS, Lambda, Kubernetes, Helm, Heroku, Aptible                                   |
-| **Software Integration**           | SNS, SQS, Stripe, RioSEO, Airtable, Contentful, FFMPEG, Google API, Infor                        |
+| **Application and Web Development**| C# & Dotnet, Python, Node.JS & Typescript, React.JS, Vue & Nuxt.JS, GraphQL, JQuery, SASS           |
+| **Cloud Infrastructure**           | AWS, Terraform, IAM, Serverless Framework                                                                              |
+| **Compute Infrastructure and Tooling** | Docker, ECR, ECS, Lambda, EC2, Kubernetes, Helm, Heroku, Aptible, Firebase, ACR, ACI                                    |
+| **Software and 3P Integration**           | SNS, SQS, Stripe, RioSEO, Airtable, Canva, Gmail, Contentful, FFMPEG, Google API, Infor, Mailchimp, Quickbooks                    |
 | **Data Storage**                   | S3, SQL Server, MongoDB, Postgres, RDS, DynamoDb                                                 |
-| **Automation**                     | YAML, CodeBuild, CodePipeline, Github Actions, CircleCI, Spacelift, Secrets Manager, Parameter Store, Jenkins |
-| **Testing Frameworks**             | Jest, Puppeteer, Artillery, XUnit, SpecFlow                                                      |
+| **Automation and Configurations**  | YAML, CodeBuild, CodePipeline, Github Actions, CircleCI, Spacelift, Secrets Manager, Parameter Store, Jenkins |
+| **Testing Frameworks**             | Jest, Puppeteer, Artillery, XUnit, SpecFlow, Gatling                                                      |
 | **Networking**                     | Route53, Cloudflare, Cloudfront, VPC, NGINX                                                      |
 | **Scripting**                      | Python, Bash, Git                                                                                 |
-| **Monitoring and Alerting**        | New Relic, Opsgenie, CloudWatch, Sentry, Google Analytics                                         |
-| **Project Tracking and Documentation** | Jira, Confluence, Notion, LucidChart, Asana                                                   |
+| **Monitoring and Alerting**        | Splunk, Wavefront, New Relic, Opsgenie, CloudWatch, Sentry, Google Analytics                                         |
+| **Project Tracking and Documentation** | Jira, Confluence, Notion, LucidChart                                                   |
 
 
 
@@ -32,18 +32,26 @@ Tennessee State University*
 
 ## Professional Experience
 
-### Senior Application Engineer @ HCA
-#### April 2023 – present
+### Software Engineer II @ Intuit
+#### June 2024 – present
 
+- Assisted internal teams with leveraging our data exchange platform to create new third party integrations for users. Leveraged integration creation capabilities for integrations between Mailchimp and Canva, as well as QuickBooks and Gmail. 
+- Joined a data engineering team, responsible for creating a platform that allows Intuit's products to exchange data between each other as well as third parties. Worked on the connection and integration creation capabilities of the platform to help improve company-wide adoption.
+- Consistently monitored performance dashboards configured in Splunk and Wavefront. Configured new Splunk dashboards for monitoring purposes.
+
+### Senior Application Engineer @ HCA
+#### April 2023 – April 2024
+- Researched, developed, documented and presented a proof-of-concept CI/CD pipeline for our applications that leveraged Docker, NGINX, Github Actions, Azure Container Registry and Azure Container Instances.
+- Created a new framework for local development that simplifies and automates changing the application's behavior based on configuration and environment. 
+- Lead team through a successful application rewrite of a React dashboard. Designed new project architecture, delegated tasks among the team, and delivered the new and improved application on time. 
 - Managed project complexity and consistently switched between contexts as I was entrusted to contribute to 5 dashboards that covered 3 different initiatives.
-- Refactored and reviewed the design of a new internal dashboard written in React.JS. Gave input to management on best practices and how to better adhere to software design principles.
 - Integrated a new React homepage for employees with third-party services and APIs using the provided API Gateway created by Infor.
-- Mentored and assisted junior developers with application development, providing documentation, personal experience and code reviews to help develop growth and reinforce software best practices. Pair programming regularly with developers.
+- Mentored and assisted junior developers with application development. Delegated tasks that suited their technical experience. Provided personal experience and code reviews to help develop growth and reinforce software best practices. Pair programming regularly with developers.
 
 ### Cloud Platform Engineer II @ Butterfly Network
 #### Dec 2021 – Jan 2023
 
-- Coordinated and lead the architecting of a system-wide monitoring and alerting system, seamlessly integrating AWS Route 53 Health Checks with NewRelic and Opsgenie.
+- Coordinated and led the architecting of a system-wide monitoring and alerting system, seamlessly integrating AWS Route 53 Health Checks with NewRelic and Opsgenie.
 - Consulted with a separate team and implemented the deployment pipeline for a brand new mobile Proof of Concept (POC) onto an established Kubernetes architecture leveraging Helm, Github Actions, and Terraform.
 - Successfully orchestrated the migration of an e-commerce front-end from a legacy AWS architecture to a modern setup, taking the lead in configuring and maintaining the front-end using Cloudfront.
 - Collaboratively steered over 20 application deployments to staging and production environments using CircleCI.
@@ -63,20 +71,10 @@ Tennessee State University*
 - Recognized for outstanding performance and contributions, leading to a promotion from Junior Software Engineer to Software Engineer.
 
 ### Freelance Software Engineer @ Nashville, TN
-#### August 2017 – present
+#### August 2017 – January 2023
 
 - Collaborated closely with a client to delineate business requirements, system design, and orchestrated the end-to-end implementation and deployment plan for a Software-as-a-Service platform developed in Typescript, Node.js, and React.js.
 - Assumed responsibility for the application's infrastructure on Heroku, successfully executing a comprehensive infrastructure migration to AWS using the Serverless Framework.
-- Directed offshore development teams, steering the project to achieve a Minimum Viable Product that was successfully launched in the market.
+- Directed offshore development team, steering the project to achieve a Minimum Viable Product that was successfully launched in the market.
 - Conceived, crafted, and maintained a media production marketing website using Node.js, Vue.js, AWS, and Heroku. Seamlessly integrated the application with Contentful and Airtable, enhancing content management capabilities.
 - Engineered an E-Commerce website using .Net Core and jQuery with a secure integration to Stripe for payment processing.
-- Realized a Proof of Concept for a bespoke web application in .Net Core, featuring booking and scheduling functionalities tailored to client specifications.
-
-### Software Developer Associate @ Accenture
-#### June 2016 – August 2017
-
-- Took charge of defect management, test execution, and test case implementation for a monolithic application leveraging Microsoft Test Manager and Microsoft Team Foundation Server.
-- Conceptualized and developed a solution in C# to log application transactions efficiently into the corresponding database.
-- Achieved the Tricentis Tosca Automation Specialist certification, showcasing expertise in its automation features.
-
-
