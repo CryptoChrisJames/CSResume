@@ -33,7 +33,7 @@ Tennessee State University*
 
 - Led or contributed to 5 successful third-party integration efforts, becoming the primary point of contact and subject matter expert across product teams.
 - Created and maintained internal documentation in DevPortal, reducing integration implementation time by over 50%.
-- Implemented new analytics and observability features in Appflow UI, including FullStory integration and funnel metrics for user behavior analysis.
+- Implemented new analytics and observability features in a platform UI responsible for managing third-party integrations and automation workflows, including FullStory integration and funnel metrics to improve user experience and behavior analysis.
 - Advanced operational maturity by deepening system knowledge, improving developer workflows, and participating in cross-team architecture discussions.
 - Built strong cross-functional partnerships and contributed code across teams to sustain delivery momentum and unblock product initiatives.
 - Monitored system health through Splunk and Wavefront dashboards; created custom Splunk views to triage issues and track connection/integration performance.
