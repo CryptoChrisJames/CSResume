@@ -9,10 +9,10 @@ Passionate software engineer with 9 years of experience spanning the full softwa
 
 | Area                               | Technologies                                                                                      |
 |------------------------------------|---------------------------------------------------------------------------------------------------|
-| **Application and Web Development**| C# & Dotnet, Python, Node.JS & Typescript, React.JS, Vue & Nuxt.JS, GraphQL, JQuery, SASS           |
+| **Application and Web Development**| C# & Dotnet, Node.JS & Typescript, React.JS, Vue & Nuxt.JS, Python, GraphQL, JQuery, SASS           |
 | **Cloud Infrastructure**           | AWS, Terraform, IAM, Serverless Framework                                                                              |
-| **Compute Infrastructure and Tooling** | Docker, ECR, ECS, Lambda, EC2, Kubernetes, Helm, Heroku, Aptible, Firebase, ACR, ACI                                    |
-| **Software and 3P Integration**           | SNS, SQS, Stripe, RioSEO, Airtable, Canva, Gmail, Contentful, FFMPEG, Google API, Infor, Mailchimp, Quickbooks                    |
+| **Compute Infrastructure and Tooling** | Docker, ECR, ECS, Lambda, EC2, Kubernetes, Helm, Heroku, Aptible, Firebase, ACR, ACI, ArgoCD                                  |
+| **Software and 3P Integration**           | SNS, SQS, Stripe, Airtable, Canva, Gmail, Contentful, FFMPEG, Google API, Infor, Mailchimp, Quickbooks, Monday.com, Meta Business Suite                    |
 | **Data Storage**                   | S3, SQL Server, MongoDB, Postgres, RDS, DynamoDb                                                 |
 | **Automation and Configurations**  | YAML, CodeBuild, CodePipeline, Github Actions, CircleCI, Spacelift, Secrets Manager, Parameter Store, Jenkins |
 | **Testing Frameworks**             | Jest, Puppeteer, Artillery, XUnit, SpecFlow, Gatling                                                      |
@@ -21,10 +21,6 @@ Passionate software engineer with 9 years of experience spanning the full softwa
 | **Monitoring and Alerting**        | Splunk, Wavefront, New Relic, Opsgenie, CloudWatch, Sentry, Google Analytics                                         |
 | **Project Tracking and Documentation** | Jira, Confluence, Notion, LucidChart                                                   |
 
-
-
-
-
 ## Education
 
 **Bachelor of Science in Computer Science, Minor in Mathematics** *- May 2016,
@@ -32,12 +28,15 @@ Tennessee State University*
 
 ## Professional Experience
 
-### Software Engineer II @ Intuit
+### Senior Software Engineer, Intuit Data Exchange(IDX) @ Intuit (Engineer II)
 #### June 2024 – present
 
-- Assisted internal teams with leveraging our data exchange platform to create new third party integrations for users. Leveraged integration creation capabilities for integrations between Mailchimp and Canva, as well as QuickBooks and Gmail. 
-- Joined a data engineering team, responsible for creating a platform that allows Intuit's products to exchange data between each other as well as third parties. Worked on the connection and integration creation capabilities of the platform to help improve company-wide adoption.
-- Consistently monitored performance dashboards configured in Splunk and Wavefront. Configured new Splunk dashboards for monitoring purposes.
+- Led or contributed to 5 successful third-party integration efforts, becoming the primary point of contact and subject matter expert across product teams.
+- Created and maintained internal documentation in DevPortal, reducing integration implementation time by over 50%.
+- Implemented new analytics and observability features in Appflow UI, including FullStory integration and funnel metrics for user behavior analysis.
+- Advanced operational maturity by deepening system knowledge, improving developer workflows, and participating in cross-team architecture discussions.
+- Built strong cross-functional partnerships and contributed code across teams to sustain delivery momentum and unblock product initiatives.
+- Monitored system health through Splunk and Wavefront dashboards; created custom Splunk views to triage issues and track connection/integration performance.
 
 ### Senior Application Engineer @ HCA
 #### April 2023 – April 2024
